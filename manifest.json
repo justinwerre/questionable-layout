@@ -1,4 +1,6 @@
 {
+	"author": "Justin Werre",
+
 	"content_scripts": [ {
 		"all_frames": true,
     "js": [ "questionablelayout.js" ],
@@ -6,6 +8,5 @@
 	} ],
 	"manifest_version": 2,
 	"name": "questionable layout",
-	"permissions": [ "*://*.questionablecontent.net/*" ],
 	"version": "1.0"
 }
