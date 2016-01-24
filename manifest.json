@@ -1,0 +1,11 @@
+{
+	"content_scripts": [ {
+		"all_frames": true,
+    "js": [ "questionablelayout.js" ],
+    "matches": [ "*://*.questionablecontent.net/*" ]
+	} ],
+	"manifest_version": 2,
+	"name": "questionable layout",
+	"permissions": [ "*://*.questionablecontent.net/*" ],
+	"version": "1.0"
+}
