@@ -4,6 +4,7 @@
 	"content_scripts": [ {
 		"all_frames": true,
     "js": [ "questionablelayout.js" ],
+    "css": [ "questionablelayout.css" ],
     "matches": [ "*://*.questionablecontent.net/*" ]
 	} ],
 	"manifest_version": 2,

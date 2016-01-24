@@ -1,0 +1,14 @@
+div#news{
+	margin-top: 10px;
+	padding: 0px;
+	width: 100%;
+}
+
+div#comic{
+	margin-right: 0px;
+}
+
+div#left_container{
+	display: inline-block;
+	margin-right: 217px;
+}
